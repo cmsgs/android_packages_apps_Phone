@@ -1689,7 +1689,7 @@ public class PhoneUtils {
         // manage the wake locks *and* arrange for the screen to come on at
         // the exact moment that the InCallScreen is ready to be displayed.
         // (See bug 1648751.)
-        app.preventScreenOn(true);
+      //  app.preventScreenOn(true);
         app.requestWakeState(PhoneApp.WakeState.FULL);
 
         // Fire off the InCallScreen intent.
